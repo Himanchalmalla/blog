@@ -1,0 +1,16 @@
+@BaseUrl = http://localhost:5000/api/blog
+
+###
+GET  {{BaseUrl}}
+
+###
+POST http://localhost:5000/api/blog
+   Content-Type: application/json
+   Authorization: ""
+    {
+        "title":"Power Play of Geo-politices",
+        "post":"The World is on miserable state of  geo-politices.",
+        "author":"Ryan Denver"
+    }
+
+
